@@ -74,19 +74,13 @@ class Experience extends Component {
           </div>
         </div>
         <div className="col-md-8 mx-auto">
-          <VerticalTimeline>
-            {work}
-            <VerticalTimelineElement
-              iconStyle={{
-                background: "#AE944F",
-                color: "#fff",
-                textAlign: "center",
-              }}
-              icon={
-                <i className="fas fa-hourglass-start mx-auto experience-icon"></i>
-              }
-            />
-          </VerticalTimeline>
+          <h2 style={{textAlign: "center"}}>Technical skills</h2>
+          <ul style={{fontSize: "18px", textAlign: "center", listStyleType: "none"}}>
+            <li>HTML & CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Python</li>
+          </ul>
         </div>
       </section>
     );
